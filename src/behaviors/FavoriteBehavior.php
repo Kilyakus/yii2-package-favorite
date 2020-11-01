@@ -3,10 +3,12 @@ namespace kilyakus\package\favorite\behaviors;
 
 use Yii;
 use yii\db\ActiveRecord;
+use yii\base\Behavior;
+
 use kilyakus\package\favorite\models\Favorite;
 use kilyakus\package\favorite\models\FavoriteAssign;
 
-class FavoriteBehavior extends \yii\base\Behavior
+class FavoriteBehavior extends Behavior
 {
     private $_favorites;
 

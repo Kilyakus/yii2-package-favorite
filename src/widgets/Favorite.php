@@ -8,7 +8,6 @@ use yii\helpers\Json;
 use yii\widgets\Pjax;
 
 use kilyakus\web\widgets as Widget;
-
 use kilyakus\package\favorite\models\Favorite as FavoriteModel;
 use kilyakus\package\favorite\models\FavoriteAssign;
 

@@ -4,7 +4,9 @@ namespace kilyakus\package\favorite\models;
 use Yii;
 use yii\data\ActiveDataProvider;
 
-class FavoriteAssign extends \kilyakus\modules\components\ActiveRecord
+use kilyakus\modules\components\ActiveRecord;
+
+class FavoriteAssign extends ActiveRecord
 {
     public static function tableName()
     {

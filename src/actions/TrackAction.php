@@ -4,8 +4,8 @@ namespace kilyakus\package\favorite\actions;
 use Yii;
 use yii\helpers\Url;
 use yii\helpers\Json;
-use kilyakus\action\BaseAction as Action;
 
+use kilyakus\action\BaseAction as Action;
 use kilyakus\package\favorite\models\Favorite as FavoriteModel;
 use kilyakus\package\favorite\widgets\Favorite;
 

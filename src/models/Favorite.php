@@ -4,10 +4,12 @@ namespace kilyakus\package\favorite\models;
 use Yii;
 use yii\data\ActiveDataProvider;
 use yii\helpers\ArrayHelper;
+
+use kilyakus\modules\components\ActiveRecord;
 use kilyakus\modules\components\ActiveRecord;
 use kilyakus\modules\behaviors\SortableModel;
 
-class Favorite extends \kilyakus\modules\components\ActiveRecord
+class Favorite extends ActiveRecord
 {
     const STATUS_OFF = 0;
     const STATUS_ON = 1;
