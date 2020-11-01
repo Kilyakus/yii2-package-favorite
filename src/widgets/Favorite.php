@@ -116,7 +116,7 @@ class Favorite extends \yii\base\Widget
 
 		}
 
-		echo Widget\DropDown::widget([
+		echo Widget\Dropdown::widget([
 			'button' => $this->hasOne ? $this->untrackButton : $this->trackButton,
 			'items' => $items,
 		]);
