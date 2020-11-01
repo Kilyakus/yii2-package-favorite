@@ -6,7 +6,6 @@ use yii\data\ActiveDataProvider;
 use yii\helpers\ArrayHelper;
 
 use kilyakus\modules\components\ActiveRecord;
-use kilyakus\modules\components\ActiveRecord;
 use kilyakus\modules\behaviors\SortableModel;
 
 class Favorite extends ActiveRecord
